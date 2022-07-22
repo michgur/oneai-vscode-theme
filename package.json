@@ -2,7 +2,7 @@
 	"name": "oneai-vscode-theme",
 	"displayName": "One AI theme",
 	"description": "One AI theme for VS Code",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "OneAI",
 	"license": "MIT",
 	"icon": "icon.png",
@@ -16,6 +16,15 @@
 	},
 	"bugs": {
 		"url": "https://github.com/michgur/oneai-vscode-theme/issues"
+	},
+	"contributes": {
+		"themes": [
+		  {
+			"label": "One AI theme",
+			"uiTheme": "vs-dark",
+			"path": "./themes/dark.json"
+		  }
+		]
 	},
 	"engines": {
 		"vscode": "^1.43.0"
