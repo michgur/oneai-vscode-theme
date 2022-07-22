@@ -1,9 +1,9 @@
 {
-	"name": "github-vscode-theme-dark-classic",
-	"displayName": "GitHub Dark Classic theme",
+	"name": "test-vscode-theme",
+	"displayName": "One AI theme",
 	"description": "GitHub theme for VS Code",
-	"version": "1.1.5",
-	"publisher": "GitHub",
+	"version": "0.0.1",
+	"publisher": "OneAI",
 	"license": "MIT",
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -12,10 +12,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/primer/github-vscode-theme-dark-classic"
+		"url": "https://github.com/michgur/test-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/primer/github-vscode-theme-dark-classic/issues"
+		"url": "https://github.com/michgur/test-vscode-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.43.0"
@@ -25,18 +25,8 @@
 	],
 	"keywords": [
 		"theme",
-		"github",
 		"dark"
 	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "GitHub Dark Classic",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark.json"
-			}
-		]
-	},
 	"devDependencies": {
 		"@primer/primitives": "^2.0.1",
 		"color": "^3.1.2",
