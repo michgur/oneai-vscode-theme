@@ -1,21 +1,21 @@
 {
-	"name": "test-vscode-theme",
+	"name": "oneai-vscode-theme",
 	"displayName": "One AI theme",
-	"description": "GitHub theme for VS Code",
-	"version": "0.0.1",
+	"description": "One AI theme for VS Code",
+	"version": "0.0.2",
 	"publisher": "OneAI",
 	"license": "MIT",
 	"icon": "icon.png",
 	"galleryBanner": {
-		"color": "#1b1f23",
+		"color": "#1d1c27",
 		"theme": "dark"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/michgur/test-vscode-theme"
+		"url": "https://github.com/michgur/oneai-vscode-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/michgur/test-vscode-theme/issues"
+		"url": "https://github.com/michgur/oneai-vscode-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.43.0"
@@ -25,13 +25,12 @@
 	],
 	"keywords": [
 		"theme",
-		"dark"
+		"dark",
+		"oneai",
+		"one ai",
+		"one",
+		"ai"
 	],
-	"devDependencies": {
-		"@primer/primitives": "^2.0.1",
-		"color": "^3.1.2",
-		"nodemon": "^2.0.3"
-	},
 	"scripts": {
 		"start": "nodemon --watch src src/index.js",
 		"build": "node src/index.js"
